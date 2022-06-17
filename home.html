@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M K P</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+    <link rel="stylesheet" href="css/animation.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+        <section class="carrossel">
+            <div id="carrossel">
+
+                <div class="slider">
+                    <!-- Radio Buttons -->
+                    <input type="radio" name="proxima" id="radio1">
+                    <input type="radio" name="proxima" id="radio2">
+                    <input type="radio" name="proxima" id="radio3">
+                    <input type="radio" name="proxima" id="radio4">
+                    <!-- FIM Radio Buttons -->
+
+                    <!-- Slides dos Destaques -->
+                    <div class="primeiroSlide">
+                        <img src="./img/destaque - 1.jpg" alt="Imagem destaque ou oferta 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/destaque - 2.jpg" alt="Imagem destaque ou oferta 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/destaque - 3.jpg" alt="Imagem destaque ou oferta 3">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/destaque - 4.jpg" alt="Imagem destaque ou oferta 4">
+                    </div>
+                    <!-- FIM Slides dos Destaques -->
+
+                    <!-- Navigation Auto - Imagens passando de forma Automática -->
+                    <div class="navigation-auto">
+                        <div class="destaque1"></div>
+                        <div class="destaque2"></div>
+                        <div class="destaque3"></div>
+                        <div class="destaque4"></div>
+                    </div>
+                    <!-- FIM Navigation Auto -->
+                </div>
+
+            </div>
+
+            <!-- Navigation Manual - Imagens passando de forma Manual -->
+            <div class="navigation-manual">
+                <label for="radio1" class="destaque-manual"></label>
+                <label for="radio2" class="destaque-manual"></label>
+                <label for="radio3" class="destaque-manual"></label>
+                <label for="radio4" class="destaque-manual"></label>
+            </div>
+            <!-- FIM Navigation Manual -->
+
+        </section>
+    </main>
+
+    <script src="./js/carrossel.js"></script>
+
+</body>
+
+</html>
