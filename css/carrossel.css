@@ -1,25 +1,21 @@
-body {
-    background-color: rgb(46, 44, 44);
-}
 
 section.carrossel {
-    margin: 0;
+    margin: auto;
     padding: 0;
-    width: 100vw;
     display: flex;
     align-items: center;
   }
   
   #carrossel {
-    margin: 0px auto;
-    width: 900px;
-    height: 242px;
+    margin: auto;
+    max-width: 1440px;
+    height: 410px;
     overflow: hidden;
   }
 
   .slider {
-    width: 400%;
-    height: 242px;
+    width: 402%;
+    height: 410px;
     display: flex;
   }
 
@@ -35,14 +31,15 @@ section.carrossel {
 
 .navigation-manual {
     position: absolute;
-    width: 100vw;
-    margin: auto auto -210px auto;
+    width: 1440px;
+    padding: 0;
+    margin: auto auto -380px auto;
     display: flex;
     justify-content: center;
   }
 
 .destaque-manual {
-    border: 2px solid whitesmoke;
+    border: 2px solid gold;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -74,7 +71,7 @@ section.carrossel {
 }
 
 .navigation-auto div {
-    border: 2px solid greenyellow;
+    border: 2px solid gold;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -82,9 +79,9 @@ section.carrossel {
 }
 
 .navigation-auto {
+    width: 1440px;
+    margin: 388px auto;
     position: absolute;
-    width: 900px;
-    margin-top: 219px;
     display: flex;
     justify-content: center;    
 }

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe600;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+
+section#lojas-ouro {
+  padding: 15px;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 10px;
+  max-width: 190px;
+  font-family: Ropa Sans, sans-serif;
+  border: solid 2px rgb(11, 11, 255);
+}
+
+.card img {
+  width: 180px;
+  height: 90px;
+  margin: auto;
+}
+
+.container p {
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  color: #2c2b2b;
+}
+
+#localidades-mkp {
+  background-color: #B0A9A9;
+  color: #343232;
+  font-style: italic;
+  max-width: 1440px;
+  max-height: 65px;
+  margin: auto;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+#localidades-mkp .mkp-local {
+  padding: 0 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #343232;
+}
+
+a:visited {
+  color: #343232;
+}
+
+
+/* Tablet
+@media(max-width: 768px) {}
+
+/* SmartPhones M *
+@media(max-width: 480px) {}*/
+
+/* @media(max-width: 683px) {
+  
+  footer {
+    display: block;
+    text-align: center;
+  }  
+
+  section {
+    padding: 0px;
+  }
+
+  .card {
+    margin: auto;
+  }
+} */
