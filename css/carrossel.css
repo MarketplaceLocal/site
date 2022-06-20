@@ -32,6 +32,7 @@ section.carrossel {
 .navigation-manual {
     position: absolute;
     width: 100%;
+    max-width: 1440px;
     padding: 0;
     margin: auto auto -380px auto;
     display: flex;
@@ -79,6 +80,7 @@ section.carrossel {
 }
 
 .navigation-auto {
+    max-width: 1440px;
     width: 100%;
     margin: 388px auto;
     position: absolute;
@@ -130,7 +132,7 @@ section.carrossel {
 }
 
 
-/* SmartPhones M */
+/* SmartPhones Small */
 @media(max-width: 320px) {
 
     #carrossel {
