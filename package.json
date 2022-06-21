@@ -1,0 +1,11 @@
+{
+  "name": "formularios-login-cadastro",
+  "version": "1.0.0",
+  "description": "telas de login e cadastro",
+  "main": "login",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
