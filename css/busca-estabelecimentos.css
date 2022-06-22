@@ -19,6 +19,11 @@ section#buscar {
   border-radius: 25px;
 }
 
+#divBusca:hover {
+  border-radius: 25px;
+  background-color: rgb(123, 197, 253);
+}
+
 #btnBusca {
   width: 30px;
   margin: 8px 10px;
@@ -55,12 +60,31 @@ button {
   border-radius: 20px;
 }
 
+button:hover {
+  background-color: rgb(80, 80, 149);
+  color: white;
+}
+
 /* CSS Responsivo para Tablet e Smartphone pequeno */
 /* Tablet */
-@media(max-width: 768px) {}
+@media(max-width: 768px) {
+
+  section#buscar {
+    width: 100%;
+    height: 160px;
+    margin: auto;
+  }
+
+}
 
 /* SmartPhones Small */
 @media(max-width: 320px) {
+
+  section#buscar {
+    width: 100%;
+    height: 160px;
+    padding-left: 30px;
+  }
 
   #txtBusca {
     width: 200px;
@@ -71,7 +95,7 @@ button {
   }
 
   #divBotao {
-    margin: 1px 0 3px 17px; 
+    margin: 1px 0 3px 17px;
   }
 
 }
