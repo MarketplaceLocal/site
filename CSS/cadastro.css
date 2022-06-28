@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Goldman", serif;  
+  }
+  
+  body {
+   
+      background-color: #ffff;
+      min-height:100vh;
+      padding:0px;
+      align-content:center;    
+  }
+  
+  .container {
+      max-width: 1440px;
+      height: auto;;
+      background-color:#f0d802;
+      padding: 10px;
+      margin: 10px auto 0 auto;
+      border-radius: 20px;
+      display:flex;
+      box-shadow: 0 0 20px rgba(0, 0, 2, 2, 0.281);
+  }
+  
+  .container .img{
+      display:block;
+      width: 30%;
+      height:auto;
+      text-align:center;
+      justify-content:center;
+      margin:10px;  
+      padding: 10px;
+      border-style:solid;
+      border-radius: 20px;
+      border-color:#dcc600;
+  }
+  
+  .container .img p{
+      display:flex;
+      height: 200px;
+      margin: auto;
+      text-align:center;
+      color: green;
+      justify-content:center;
+      padding: 50px;
+      font-size: 18px;
+      font-weight:bolder;
+      text-shadow: -1px -1px 0px #FFF, -1px 1px 0px #FFF, 1px -1px 0px #FFF,  1px 0px 0px #FFF;
+  }
+  
+  .container form {
+    border-style: solid;
+    border-color: #dcc600;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    justify-self:;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container .form h1{
+      font-size: 40px;
+      text-align:center;
+      align-items:center;
+      font: bold;
+      color: #ffff;
+      margin:10px;
+      text-shadow: -1px -1px 0px rgb(3, 61, 8), 1px 1px 0px rgb(2, 29, 7), 1px 2px 5px green,  1px 0px 0px #FFF;
+  }
+  
+  .container .form p{
+    margin-top: 5px;
+    padding: 10px;
+    color:rgb(4, 70, 4);
+  }
+  
+.container .form label{
+    display:flex;
+    font-size: 14px;
+    line-height: 10px;
+    margin-bottom: 5px;
+    color: rgb(4, 70, 4);
+}
+
+.container .form input{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+border: none;
+background-color: #fff;
+margin-top:10px;
+margin-bottom: 10px;
+margin: 10px;
+padding: 6px 50px;
+color: black;
+border-radius: 30px;
+}
+
+
+.container .form select{
+    display: block;
+    width: 70%;
+    margin: 10px 10px;
+    padding: 7px 5px;
+    background-color: #fff;
+    text-align:justify;
+    border: none;
+    font-size: 15px;
+    color: black;
+    border-radius: 30px;
+  }
+  
+  .dataNascimento{
+    display: block;
+    width:70%;
+    font-size: 12px;
+    
+  }
+  .container .form input:hover{
+      background-color: gainsboro;
+  }
+  
+  .container .form form input:focus-visible{
+      outline: 3px solid green;
+  }
+  
+  .container .form form input::placeholder{
+      color:black;
+      text-align:left;
+      font-size: 13px;
+      font-style: italic;
+      padding: 5px;
+  }
+  
+  .container .form form input[type="submit"] {
+        background-color:#dcc600;
+        color:#fff;
+        cursor: pointer;
+        margin: 30px 0 0 0;
+        text-transform: uppercase;
+        transition: 0.5s;
+        padding: 5px;
+        align-content: center;
+    text-align: center;
+    transition: 0.9s;
+  }
+  
+  .container .form form input[type="submit"]:hover {
+      background-color: green;
+  }
+
+
+.container .form  p a{
+        text-transform: uppercase;
+        color: green;
+        text-decoration: none;
+    }
+  
+
+  @media (max-width:820px) {
+      .container .img {
+          display: none;
+      }
+      .container .form{
+          width: 100%;
+      }
+  }
