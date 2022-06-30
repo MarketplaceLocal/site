@@ -190,7 +190,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked~.submenu-hamb {
-    transform: translateX(-170px);
+    /* transform: translateX(-170px); TEMOS QUE AJUSTAR ESSE COMANDO PARA FICAR LEGAL */
     opacity: 0;/* LISTA DESAPARECE QUANDO CLICA OUTRA VEZ NO HAMBURGUINHO */
     /* propriedade mexe no eixo X (horizontal), fazendo o submenu-hamb aparecer*/
 }
