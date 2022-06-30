@@ -175,8 +175,7 @@ input[type="checkbox"] {
 }
 
 .submenu-hamb {
-    top: 170px;
-    top: -170px;
+    right: -170px;
     position: absolute;
     transition: .5s;
     /* efeito feito no position absolute feito no input checkbox transform: translateX*/
@@ -186,7 +185,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked~.submenu-hamb {
     transform: translateX(-170px);
-    opacity: 0; /* LISTA DESAPARECE QUANDO CLICA OUTRA VEZ NO HAMBURGUINHO */
+    opacity: 0;/* LISTA DESAPARECE QUANDO CLICA OUTRA VEZ NO HAMBURGUINHO */
     /* propriedade mexe no eixo X (horizontal), fazendo o submenu-hamb aparecer*/
 }
 
