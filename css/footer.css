@@ -146,3 +146,7 @@ footer {
     color: #f12020;
     text-decoration: underline;
 }
+
+.dev1 a:hover {
+    background-color: white;
+}

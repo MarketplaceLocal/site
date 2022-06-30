@@ -81,6 +81,12 @@ ul.drop-submenu li a {
     /* centralização do item com relação a outros itens*/
 }
 
+.search-box:hover {
+    height: 45px;
+    border: rgb(137, 137, 249) solid 1px;
+    background-color: #ecf8a8;
+}
+
 .search-txt {
     border: none;
     background: none;
@@ -93,12 +99,12 @@ ul.drop-submenu li a {
     line-height: 40px;
     font-family: 'Goldman', cursive;
     position: relative;
-    right: 340px;
+    right: 320px;
 }
 
 #lupa-1{
     position: relative;
-    right: 340px;
+    right: 322px;
     margin: auto;
     width: 35px;
 }
@@ -177,7 +183,7 @@ input[type="checkbox"] {
 .submenu-hamb {
     right: -170px;
     position: absolute;
-    transition: .5s;
+    transition: .3s;
     /* efeito feito no position absolute feito no input checkbox transform: translateX*/
     top: 50px;
     z-index: 9;
@@ -194,7 +200,6 @@ input[type="checkbox"]:checked~.submenu-hamb {
     padding: 10px 20px;
     color: rgb(255, 219, 16);
     background-color: rgb(14, 14, 102);
-
 }
 
 .submenu-hamb a:hover {
@@ -205,8 +210,7 @@ input[type="checkbox"]:checked~.submenu-hamb {
 #hamburguer label {
     padding: 10px;
     position: absolute;
-    margin-left: 40px;
-    
+    margin-left: 40px;    
 }
 
 .drop-submenu li {
@@ -246,14 +250,10 @@ input[type="checkbox"]:checked~.submenu-hamb {
     display: none;
     left: 0;
     position: absolute;
-
-
 }
 
 .dp-menu ul li:hover ul {
     display: block;
-
-
 }
 
 .dp-menu ul ul {
