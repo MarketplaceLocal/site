@@ -66,6 +66,10 @@ section#lojas-ouro {
   padding: 0 2px;
 }
 
+.mpk-local:hover {
+  color: blue;
+}
+
 a {
   text-decoration: none;
 }
