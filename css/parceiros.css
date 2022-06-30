@@ -45,14 +45,19 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
   }
 
+  .card:hover {
+    background-color: rgb(248, 251, 65);
+    border: solid 5px blue;
+  }
+
   .card img {
     margin: 3px 0 0 12px;
   }
 
 /*   .card:nth-child(even) {
     background: rgb(248, 237, 144);
-  }
-   */
+  } */
+  
    
 .container {
     margin: 16px 10px 0;
@@ -61,7 +66,7 @@
     font-size: 24px;
     font-weight: 800;
     font-family: 'Inter', sans-serif;
-    color: rgb(69, 68, 68);
+    color: rgb(68, 68, 69);
     display: flex;
     float: right;
   }
